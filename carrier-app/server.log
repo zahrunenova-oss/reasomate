@@ -1,0 +1,21 @@
+
+> petra-node@0.3.0 start
+> node src/server.js
+
+WebSocket server initialized at /ws
+Database initialized at: /workspace/project/ReasoMate/carrier-app/data/db.json
+Database data: {
+  "users": [],
+  "pulses": [],
+  "messages": [],
+  "threads": []
+}
+WebSocket server initialized at /ws
+🚀 Petra Node listening on 0.0.0.0:5000
+📡 WebSocket available at ws://0.0.0.0:5000/ws
+🏥 Health check: http://0.0.0.0:5000/ping
+Broadcasted event: user.registered
+Broadcasted event: pulse.new
+Broadcasted event: user.registered
+Broadcasted event: thread.new
+Broadcasted event: message.new

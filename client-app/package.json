@@ -1,0 +1,38 @@
+{
+  "name": "liora-node",
+  "version": "0.3.0",
+  "description": "ReasoMate Liora Node - React Native client for decentralized local-LAN messaging",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "expo": "~54.0.21",
+    "expo-router": "~6.0.14",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-dom": "^19.2.0",
+    "react-native": "0.74.1",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "^18.2.48",
+    "@types/react-native": "^0.73.0",
+    "typescript": "~5.9.2"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "messenger",
+    "lan",
+    "decentralized"
+  ],
+  "author": "ReasoMate",
+  "license": "MIT",
+  "private": true
+}

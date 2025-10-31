@@ -1,0 +1,21 @@
+{
+  "name": "petra-node",
+  "version": "0.3.0",
+  "description": "ReasoMate Petra Node - Carrier Server for decentralized local-LAN messaging",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": ["messenger", "lan", "decentralized", "websocket"],
+  "author": "ReasoMate",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5",
+    "lowdb": "^7.0.1",
+    "nanoid": "^5.0.4"
+  }
+}
